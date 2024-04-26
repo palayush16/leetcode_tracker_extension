@@ -1,0 +1,92 @@
+body{
+    padding:0 10px;
+    font-size: 16px;
+    min-width: 180px;
+    width: 250px;
+
+}
+h3{
+    top: 0;
+    position: sticky;
+    padding: 5px 0;
+    background-color: #fff;
+}
+#error_message{
+    font-size: 14px;
+    color: red;
+    padding: 5px auto;
+    margin-bottom: 5px;
+}
+#leet_details div p{
+     
+    font-size: 14px;
+    padding: 2px 2px;
+    margin:1px 0 8px 0;
+}
+#leet_details div{
+    background-color:aliceblue;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+    max-width: 240px;
+}
+#leet_details{
+    font-size: 12px;
+    padding: 5px 0px;
+}
+button{
+    font-size: 12px;
+    background-color: black;
+    box-shadow: 2px gray;
+    
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+}
+
+h5{
+    margin: 2px auto;
+}
+form{
+    display: flex;
+    margin-bottom:6px ;
+    max-width: 250px;
+    margin-bottom: 10px;
+    
+}
+form button{
+    margin-left: 5px;
+}
+  
+#nameInput {
+    
+    padding: 5px; /* Add some padding to the input field */
+    border: 1px solid #ccc; /* Add a border */
+    
+    
+}
+  
+button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+.name_del {
+    display: flex; /* Make it a flex container */
+    justify-content: space-between; /* Push children elements to the sides */
+    align-items: center;
+    margin-bottom: 2px;
+    height: 30px;
+}
+
+.name_del h5{
+    margin-left: 0;
+    font-size: 16px;
+}
+
+.deleteBtn {
+    /* Add specific styles for the delete button if needed */
+    margin-left: 10px; /* Adjust margin as needed */
+    /* font-size: 12px; */
+  }
+
+  
+

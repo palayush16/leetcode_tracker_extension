@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+ 
+  <title>Leetcode Tracker</title>
+</head>
+<body>
+  <h3>LeetCode Tracker</h3>
+  <form id="nameForm">
+    <input type="text" id="nameInput" placeholder="LeetCode ID">
+    <button type="submit">Add ID</button>
+  </form>
+  
+  <div id="error_message"></div> <!-- Error message display -->
+
+  <div id="leet_details">Loading...</div>
+
+  <button id="deleteAllBtn">Clear All</button> <!-- Delete button -->
+  <button id="refreshBtn">Refresh</button> <!-- Refresh button -->
+  
+  <script src="index.js"></script>
+</body>
+</html>

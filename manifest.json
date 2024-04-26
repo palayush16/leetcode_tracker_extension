@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "Leetcode Tracker",
+    "description": "Base Level Extension (by Ayush Pal) ",
+    "version": "1.0",
+    "action": {
+      "default_popup": "main.html",
+      "default_icon": "leet_icon2.png"
+    }
+  }
